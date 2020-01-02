@@ -1,0 +1,65 @@
+/*
+Theme Name: Concepts
+Author: Albert
+Version: 1.0
+*/
+
+body{
+    background-color: gray;
+}
+
+a:link,a:visited{
+    color:black;
+}
+
+header {
+    background-color: lightslategray;
+}
+
+footer {
+    background-color: lightslategray;
+}
+
+.current-menu-item{
+    color: greenyellow;
+}
+
+h2>a:link,
+h2>a:visited
+{
+    color:white;
+}
+
+.white-link{
+    text-align: center;
+}
+
+.search-overlay{
+   display: none;
+}
+
+.search-overlay--active{
+    display:inline-block;
+}
+
+.note-active-field{
+    color:red;
+
+}
+
+.update-note{
+    display:none;
+}
+
+.update-note--visible{
+    display: block;
+}
+
+.note-limit-message{
+    display:none;
+}
+
+.active{
+    display:block;
+}
+
